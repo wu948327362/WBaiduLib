@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "WWTBaiduConfig/*.{h,m}"
   #  spec.exclude_files = "WWTBaiduLib/Exclude"
 
-  spec.public_header_files = "publicClass/*.h"
+  #  spec.public_header_files = "publicClass/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
