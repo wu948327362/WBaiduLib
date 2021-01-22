@@ -89,10 +89,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WWTBaiduLib", "WWTBaiduLib/**/*.{h,m}"
+  spec.source_files  = "WWTBaiduConfig/*.{h,m}"
   #  spec.exclude_files = "WWTBaiduLib/Exclude"
 
-  spec.public_header_files = "WWTBaiduLib/publicClass/*.h"
+  spec.public_header_files = "publicClass/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

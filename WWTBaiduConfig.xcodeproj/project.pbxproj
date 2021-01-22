@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1E10E7D25BA7DF60046C8AA /* WWTBaiduLib.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E10E7C25BA7DF60046C8AA /* WWTBaiduLib.m */; };
-		F1E10E7E25BA7DF60046C8AA /* WWTBaiduLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1E10E7B25BA7DF60046C8AA /* WWTBaiduLib.h */; };
+		F1E10E9325BA86B00046C8AA /* WWTBaiduConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E10E9225BA86B00046C8AA /* WWTBaiduConfig.m */; };
+		F1E10E9425BA86B00046C8AA /* WWTBaiduConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1E10E9125BA86B00046C8AA /* WWTBaiduConfig.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F1E10E7625BA7DF60046C8AA /* CopyFiles */ = {
+		F1E10E8C25BA86B00046C8AA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				F1E10E7E25BA7DF60046C8AA /* WWTBaiduLib.h in CopyFiles */,
+				F1E10E9425BA86B00046C8AA /* WWTBaiduConfig.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F1E10E7825BA7DF60046C8AA /* libWWTBaiduLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWWTBaiduLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1E10E7B25BA7DF60046C8AA /* WWTBaiduLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWTBaiduLib.h; sourceTree = "<group>"; };
-		F1E10E7C25BA7DF60046C8AA /* WWTBaiduLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWTBaiduLib.m; sourceTree = "<group>"; };
+		F1E10E8E25BA86B00046C8AA /* libWWTBaiduConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWWTBaiduConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E10E9125BA86B00046C8AA /* WWTBaiduConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWTBaiduConfig.h; sourceTree = "<group>"; };
+		F1E10E9225BA86B00046C8AA /* WWTBaiduConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWTBaiduConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F1E10E7525BA7DF60046C8AA /* Frameworks */ = {
+		F1E10E8B25BA86B00046C8AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,65 +41,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F1E10E6F25BA7DF60046C8AA = {
+		F1E10E8525BA86B00046C8AA = {
 			isa = PBXGroup;
 			children = (
-				F1E10E7A25BA7DF60046C8AA /* WWTBaiduLib */,
-				F1E10E7925BA7DF60046C8AA /* Products */,
+				F1E10E9025BA86B00046C8AA /* WWTBaiduConfig */,
+				F1E10E8F25BA86B00046C8AA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F1E10E7925BA7DF60046C8AA /* Products */ = {
+		F1E10E8F25BA86B00046C8AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1E10E7825BA7DF60046C8AA /* libWWTBaiduLib.a */,
+				F1E10E8E25BA86B00046C8AA /* libWWTBaiduConfig.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F1E10E7A25BA7DF60046C8AA /* WWTBaiduLib */ = {
+		F1E10E9025BA86B00046C8AA /* WWTBaiduConfig */ = {
 			isa = PBXGroup;
 			children = (
-				F1E10E7B25BA7DF60046C8AA /* WWTBaiduLib.h */,
-				F1E10E7C25BA7DF60046C8AA /* WWTBaiduLib.m */,
+				F1E10E9125BA86B00046C8AA /* WWTBaiduConfig.h */,
+				F1E10E9225BA86B00046C8AA /* WWTBaiduConfig.m */,
 			);
-			path = WWTBaiduLib;
+			path = WWTBaiduConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1E10E7725BA7DF60046C8AA /* WWTBaiduLib */ = {
+		F1E10E8D25BA86B00046C8AA /* WWTBaiduConfig */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1E10E8125BA7DF60046C8AA /* Build configuration list for PBXNativeTarget "WWTBaiduLib" */;
+			buildConfigurationList = F1E10E9725BA86B00046C8AA /* Build configuration list for PBXNativeTarget "WWTBaiduConfig" */;
 			buildPhases = (
-				F1E10E7425BA7DF60046C8AA /* Sources */,
-				F1E10E7525BA7DF60046C8AA /* Frameworks */,
-				F1E10E7625BA7DF60046C8AA /* CopyFiles */,
+				F1E10E8A25BA86B00046C8AA /* Sources */,
+				F1E10E8B25BA86B00046C8AA /* Frameworks */,
+				F1E10E8C25BA86B00046C8AA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WWTBaiduLib;
-			productName = WWTBaiduLib;
-			productReference = F1E10E7825BA7DF60046C8AA /* libWWTBaiduLib.a */;
+			name = WWTBaiduConfig;
+			productName = WWTBaiduConfig;
+			productReference = F1E10E8E25BA86B00046C8AA /* libWWTBaiduConfig.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F1E10E7025BA7DF60046C8AA /* Project object */ = {
+		F1E10E8625BA86B00046C8AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					F1E10E7725BA7DF60046C8AA = {
+					F1E10E8D25BA86B00046C8AA = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = F1E10E7325BA7DF60046C8AA /* Build configuration list for PBXProject "WWTBaiduLib" */;
+			buildConfigurationList = F1E10E8925BA86B00046C8AA /* Build configuration list for PBXProject "WWTBaiduConfig" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,29 +107,29 @@
 				en,
 				Base,
 			);
-			mainGroup = F1E10E6F25BA7DF60046C8AA;
-			productRefGroup = F1E10E7925BA7DF60046C8AA /* Products */;
+			mainGroup = F1E10E8525BA86B00046C8AA;
+			productRefGroup = F1E10E8F25BA86B00046C8AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1E10E7725BA7DF60046C8AA /* WWTBaiduLib */,
+				F1E10E8D25BA86B00046C8AA /* WWTBaiduConfig */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F1E10E7425BA7DF60046C8AA /* Sources */ = {
+		F1E10E8A25BA86B00046C8AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E10E7D25BA7DF60046C8AA /* WWTBaiduLib.m in Sources */,
+				F1E10E9325BA86B00046C8AA /* WWTBaiduConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F1E10E7F25BA7DF60046C8AA /* Debug */ = {
+		F1E10E9525BA86B00046C8AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		F1E10E8025BA7DF60046C8AA /* Release */ = {
+		F1E10E9625BA86B00046C8AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		F1E10E8225BA7DF60046C8AA /* Debug */ = {
+		F1E10E9825BA86B00046C8AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -252,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		F1E10E8325BA7DF60046C8AA /* Release */ = {
+		F1E10E9925BA86B00046C8AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1E10E7325BA7DF60046C8AA /* Build configuration list for PBXProject "WWTBaiduLib" */ = {
+		F1E10E8925BA86B00046C8AA /* Build configuration list for PBXProject "WWTBaiduConfig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1E10E7F25BA7DF60046C8AA /* Debug */,
-				F1E10E8025BA7DF60046C8AA /* Release */,
+				F1E10E9525BA86B00046C8AA /* Debug */,
+				F1E10E9625BA86B00046C8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1E10E8125BA7DF60046C8AA /* Build configuration list for PBXNativeTarget "WWTBaiduLib" */ = {
+		F1E10E9725BA86B00046C8AA /* Build configuration list for PBXNativeTarget "WWTBaiduConfig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1E10E8225BA7DF60046C8AA /* Debug */,
-				F1E10E8325BA7DF60046C8AA /* Release */,
+				F1E10E9825BA86B00046C8AA /* Debug */,
+				F1E10E9925BA86B00046C8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F1E10E7025BA7DF60046C8AA /* Project object */;
+	rootObject = F1E10E8625BA86B00046C8AA /* Project object */;
 }
