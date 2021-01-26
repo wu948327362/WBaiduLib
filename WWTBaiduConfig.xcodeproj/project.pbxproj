@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F128F00225C0100E004A37A1 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F128F00125C0100E004A37A1 /* TestObject.m */; };
 		F1E10E9325BA86B00046C8AA /* WWTBaiduConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E10E9225BA86B00046C8AA /* WWTBaiduConfig.m */; };
 		F1E10E9425BA86B00046C8AA /* WWTBaiduConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1E10E9125BA86B00046C8AA /* WWTBaiduConfig.h */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F128F00025C0100E004A37A1 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		F128F00125C0100E004A37A1 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		F1E10E8E25BA86B00046C8AA /* libWWTBaiduConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWWTBaiduConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E10E9125BA86B00046C8AA /* WWTBaiduConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWTBaiduConfig.h; sourceTree = "<group>"; };
 		F1E10E9225BA86B00046C8AA /* WWTBaiduConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWTBaiduConfig.m; sourceTree = "<group>"; };
@@ -41,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F128EFFF25C00FFB004A37A1 /* TestFile */ = {
+			isa = PBXGroup;
+			children = (
+				F128F00025C0100E004A37A1 /* TestObject.h */,
+				F128F00125C0100E004A37A1 /* TestObject.m */,
+			);
+			path = TestFile;
+			sourceTree = "<group>";
+		};
 		F1E10E8525BA86B00046C8AA = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +72,7 @@
 		F1E10E9025BA86B00046C8AA /* WWTBaiduConfig */ = {
 			isa = PBXGroup;
 			children = (
+				F128EFFF25C00FFB004A37A1 /* TestFile */,
 				F1E10E9125BA86B00046C8AA /* WWTBaiduConfig.h */,
 				F1E10E9225BA86B00046C8AA /* WWTBaiduConfig.m */,
 			);
@@ -122,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F128F00225C0100E004A37A1 /* TestObject.m in Sources */,
 				F1E10E9325BA86B00046C8AA /* WWTBaiduConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
