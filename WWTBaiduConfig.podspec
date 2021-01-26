@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WWTBaiduConfig"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "This is wwt lib in baidu of WWTBaiduConfig."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WWTBaiduConfig/**/*.{h,m}"
+  spec.source_files  = "WWTBaiduConfig/**/*"
   #  spec.exclude_files = "WWTBaiduLib/Exclude"
 
   spec.public_header_files = "WWTBaiduConfig/publicClass/*.h"
