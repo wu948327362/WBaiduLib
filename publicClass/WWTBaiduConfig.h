@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 
 @interface WWTBaiduConfig : NSObject
-
+- (NSString *)addStrTailString:(NSString *)originString;
 @end

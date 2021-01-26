@@ -8,5 +8,12 @@
 #import "WWTBaiduConfig.h"
 
 @implementation WWTBaiduConfig
-
+- (NSString *)addStrTailString:(NSString *)originString{
+    if (originString && [originString isKindOfClass:[NSString class]]) {
+        NSMutableString *tem = [NSMutableString stringWithString:originString];
+        [tem appendString:@"tailhhhhhhhh"];
+        return [tem copy];
+    }
+    return  @"tailhhhhhhhh";
+}
 @end
